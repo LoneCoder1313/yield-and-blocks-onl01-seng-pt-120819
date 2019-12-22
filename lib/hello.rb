@@ -1,10 +1,5 @@
 def hello_t(names)
   i = 0 
-  names.each do |names|
-    yield names[i]
-    i+1=
-end
-end 
 
 
 def hello_t(other_names)
