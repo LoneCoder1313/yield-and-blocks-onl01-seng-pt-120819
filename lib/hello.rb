@@ -1,6 +1,5 @@
-def hello_t(names)
-  names.each_with_index do |names|
-    puts 
+def hello_t(array)
+  
 end
 
 
