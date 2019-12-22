@@ -3,8 +3,8 @@ def hello_t(names)
 while i < names.length
     yield names[i]
     i = i + 1
-    yield
   end
   hello_t(names)
+  yield
 end
 
