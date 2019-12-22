@@ -5,6 +5,8 @@ end
 end 
 
 
-
-# call your method here!
-
+def hello_t(other_names)
+  other_names.each do |names|
+    puts other_names
+end 
+end 
