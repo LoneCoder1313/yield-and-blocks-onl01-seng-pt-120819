@@ -5,6 +5,5 @@ def hello_t(names)
       yield names[i]
     i = i + 1
   end
-  hello_t(names)
 end
 
