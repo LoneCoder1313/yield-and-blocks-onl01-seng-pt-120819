@@ -5,5 +5,6 @@ while i < names.length
     i = i + 1
     yield
   end
+  hello_t(names)
 end
 
