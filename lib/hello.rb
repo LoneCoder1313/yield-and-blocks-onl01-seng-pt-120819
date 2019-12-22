@@ -1,12 +1,14 @@
 def hello_t(names)
-  names.each do |names|
-    puts names.yield
+  i = 0 
+  names.each do |names,i|
+    i+1=
+    puts names
 end
 end 
 
 
 def hello_t(other_names)
   other_names.each do |names|
-    puts other_names.yield
+    puts other_names
 end 
 end 
