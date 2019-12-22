@@ -1,7 +1,8 @@
-def hello_t(array)
+def hello_t(names)
   i = 0 
-  if i <= array.length 
-    i=i+1 
+  if i < names.length 
+    i=i+2
+    puts "Hello "
 end
 end 
 
