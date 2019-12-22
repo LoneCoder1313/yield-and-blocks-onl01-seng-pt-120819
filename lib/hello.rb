@@ -8,3 +8,6 @@
 # end
 
 def hello_t(names)
+  names.each do |names|
+    puts "Hi, #{names}"
+  end 
