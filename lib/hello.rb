@@ -1,8 +1,6 @@
 def hello_t(names)
-  i = 0 
-  if i < names.length 
-    i=i+2
-    puts "Hello "
+  names.each do |names|
+    puts names
 end
 end 
 
